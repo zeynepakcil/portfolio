@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Portfolio'
 summary: ''
 date: 2026-01-05
 type: landing
@@ -16,12 +16,11 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I work on"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "utility chiplets"
+          - "heterogeneous integration"
+          - "packaging technologies"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -86,44 +85,14 @@ sections:
       categories:
         - name: Languages
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
+            - name: Verilog
+              icon: devicon/verilog
+            - name: SystemVerilog
+              icon: devicon/sysverilog
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
-          items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
-          items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
-          items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: C++
+              icon: devicon/cpp
     design:
       style: grid
       show_levels: false
@@ -234,12 +203,11 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm an incoming PhD student at UC Irvine.
         
-        Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'
-        url: uploads/resume.pdf
+        url: uploads/alyssa_cv.pdf
         new_tab: true
     design:
       card:
